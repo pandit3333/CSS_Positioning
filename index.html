@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Positioning, Grid Layout, and Dropdown Menus</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <!--This is header with navigation menu-->
+            <header class="header">
+                <h1>Guide for Beginner Web Developers</h1>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#">Menu</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!--This is main content section-->
+            <main class="main-content">
+                <section class="content-box">
+                    <h2>About Web Development</h2>
+                    <p>Web development, also known as website development, refers to the tasks 
+                        associated with creating, building, and maintaining websites and web applications 
+                        that run online on a browser. It may, however, also include web design, web programming, 
+                        and database management.<br><br>
+                        Web development is closely related to the job of designing the features and functionality 
+                        of apps (web design). The term development is usually reserved for the actual construction of 
+                        these things (that is to say, the programming of sites).<br><br>
+                        The basic tools involved in web development are programming languages called HTML (Hypertext Markup Language), 
+                        CSS (Cascading Style Sheets), and JavaScript. There are, however, a number of other programs used to “manage” or 
+                        facilitate the construction of sites that would otherwise have to be done “from scratch” by writing code. 
+                        A number of content management systems (CMS) fall into this category, including WordPress, Joomla!, Drupal, 
+                        TYPO3, and Adobe Experience Manager, among others.</p>
+                    <div class="absolute-box">Absolute Box</div>
+                </section>
+                <section class="content-box">
+                    <h2>About CSS Layout</h2>
+                    <p>Introduction to CSS layout<br>This article will recap some of the CSS layout features we've already touched upon 
+                        in previous modules — such as different display values — and introduce some of the concepts we'll be covering 
+                        throughout this module.<br><br>
+                        Normal flow<br>Elements on webpages lay themselves out according to normal flow - until we do something to change 
+                        that. This article explains the basics of normal flow as a grounding for learning how to change it.<br><br>
+                        
+                        Flexbox<br>Flexbox is a one-dimensional layout method for laying out items in rows or columns. Items flex to fill 
+                        additional space and shrink to fit into smaller spaces. This article explains all the fundamentals. After studying 
+                        this guide you can test your flexbox skills to check your understanding before moving on.<br><br>
+                        
+                        Grids<br>CSS grid layout is a two-dimensional layout system for the web. It lets you lay content out in rows and columns,
+                        and has many features that make building complex layouts straightforward. This article will give you all you need to know 
+                        to get started with page layout, then test your grid skills before moving on.<br><br>
+                        
+                        Floats<br>Originally for floating images inside blocks of text, the float property became one of the most commonly used tools
+                        for creating multiple column layouts on webpages. With the advent of flexbox and grid it has now returned to its original 
+                        purpose, as this article explains.<br><br>
+                        
+                        Positioning<br>Positioning allows you to take elements out of the normal document layout flow and make them behave differently, 
+                        for example, by sitting on top of one another, or by always remaining in the same place inside the browser viewport. This article 
+                        explains the different position values and how to use them.<br><br>
+                        
+                        Multiple-column layout<br>The multiple-column layout specification gives you a method of laying content out in columns, as you might 
+                        see in a newspaper. This article explains how to use this feature.<br><br>
+                        
+                        Responsive design<br>As more diverse screen sizes have appeared on web-enabled devices, the concept of responsive web design (RWD) has 
+                        appeared: a set of practices that allows web pages to alter their layout and appearance to suit different screen widths, resolutions, 
+                        etc. It is an idea that changed the way we design for a multi-device web, and in this article we'll help you understand the main techniques 
+                        you need to know to master it.</p>
+                </section>
+            </main>
+            
+            <!-- This is Sidebar -->
+            <aside class="sidebar">
+                <h2>Click links to know more</h2>
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/web-development/?ref=home-articlecards" target="_blank">Website Design and Web Deevlopment</a></li>
+                    <li><a href="https://brainstation.io/career-guides/what-is-web-development" target="_blank">More about Web Development</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout" target="_blank">More about CSS Layout</a></li>
+                </ul>
+            </aside>
+  
+            <!-- This is Footer -->
+            <footer class="footer">
+                <p>Developer - Suresh Pandit, CSS Dropdown Menus @ 2024</p>
+            </footer>
+        </div>
+    </body>
+</html>
